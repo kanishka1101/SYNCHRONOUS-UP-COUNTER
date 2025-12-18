@@ -3,6 +3,7 @@
 Name: Kanishka G
 
 Reference Number: 25011903
+
 **AIM:**
 
 To implement 4 bit synchronous up counter and validate functionality.
@@ -55,11 +56,11 @@ begin
 
    if(rst) 
    
-     out<=0;
+    out<=0;
      
    else
    
-     out <= out+1; 
+    out <= out+1; 
      
 end 
 
