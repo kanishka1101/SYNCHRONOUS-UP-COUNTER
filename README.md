@@ -44,15 +44,25 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 **PROGRAM**
 
 module ex11(out,clk,rst); 
-input clk,rst; 
-output reg [3:0]out; 
+
+input clk,rst;
+
+output reg [3:0]out;
+
 always @ (posedge clk) 
-begin 
+
+begin
+
    if(rst) 
-     out<=0; 
-   else  
+   
+     out<=0;
+     
+   else
+   
      out <= out+1; 
+     
 end 
+
 endmodule 
  
 
@@ -66,6 +76,7 @@ endmodule
 
 
 **TRUTH TABLE**
+
 <img width="775" height="374" alt="Screenshot 2025-12-18 191012" src="https://github.com/user-attachments/assets/cfc56f52-80c3-4ae0-bb58-176a8abbee6b" />
 
 
