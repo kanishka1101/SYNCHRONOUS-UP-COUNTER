@@ -63,7 +63,6 @@ begin
     out <= out+1; 
      
 end 
-
 endmodule 
  
 
